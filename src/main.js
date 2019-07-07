@@ -1,5 +1,6 @@
 import './style.css';
 import setCityInfo from './apiHelper';
+import './style.css'
 
 class UI {
   constructor() {
