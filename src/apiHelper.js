@@ -1,16 +1,3 @@
-class UI {
-  constructor() {
-    this.cityForm = document.querySelector('#city-search');
-    this.cityInput = document.querySelector('#city-name');
-    this.btnSearch = document.querySelector('#btn-city-search');
-    this.weatherDiv = document.querySelector('.weather-info');
-    this.cityForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      setCityInfo(this.cityInput.value, this.weatherDiv);
-    });
-  }
-}
-
 async function setCityInfo(city, weatherDiv) {
   const weatherData = await getCityInfo(city);
   const location = weatherDiv.querySelector('#location');
@@ -55,4 +42,4 @@ async function getCityInfo(city) {
   }
 }
 
-const ui = new UI();
+export default setCityInfo;

@@ -1,0 +1,26 @@
+{
+  "name": "js-weather-app",
+  "version": "1.0.0",
+  "description": "Weather forecast app developed with vanilla JavaScript.  It shows the current weather for the given city.  OpenWeather API is used to fetch the weather data.",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamcry/js-weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamcry/js-weather-app/issues"
+  },
+  "homepage": "https://github.com/jamcry/js-weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
