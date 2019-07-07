@@ -27,7 +27,7 @@ async function setCityInfo(city, weatherDiv) {
 }
 
 async function getCityInfo(city) {
-  const API_KEY = 'API_KEY_HERE';
+  const API_KEY = '60893133019f8947f3001b83a0d2b23d';
   const units = 'metric';
   const targetURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${units}&appid=${API_KEY}`;
   let response = await fetch(targetURL);
